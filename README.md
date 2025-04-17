@@ -42,3 +42,5 @@ SpendingComparator
 Compares spending between the current and previous week
 Returns formatted output with percent increase or decrease
 
+![mermaid-diagram-2025-04-17-155629](https://github.com/user-attachments/assets/f893d45e-c158-46cf-9ffa-45f38bb8460f)
+
