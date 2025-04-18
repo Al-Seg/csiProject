@@ -83,14 +83,14 @@ public class App extends Application {
             }
         });
 
-        // Attach button actions
+        //  button actions
         addButton.setOnAction(e -> addSpending());
         compareButton.setOnAction(e -> compareSpending());
         quitButton.setOnAction(e -> primaryStage.close());
         prevWeekButton.setOnAction(e -> switchWeek(-1));
         nextWeekButton.setOnAction(e -> switchWeek(1));
 
-        // Layout for control panel
+        // Layout for control 
         VBox controlBox = new VBox(15,
             new Label("Select Day:"), daySelector,
             new Label("Spending Amount:"), inputField,
@@ -101,7 +101,7 @@ quitButton);
         controlBox.setStyle("-fx-padding: 20; -fx-background-color: #f0f4f8;");
         controlBox.setAlignment(Pos.TOP_CENTER);
 
-        // Layout for daily boxes
+        // Layout for daily 
         dayGrid = new GridPane();
         dayGrid.setHgap(15);
         dayGrid.setVgap(15);
